@@ -316,6 +316,39 @@ footer {
   margin-bottom: 6px; */
 /* } */
 /* media query */
+#mail {
+  /* margin: 0;
+  height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(63, 57, 57);
+
+  padding-bottom: 20%;
+  padding-top: 15%;
+}
+#mail h2 {
+  text-align: center;
+  text-decoration: underline;
+  color: brown;
+  width: auto;
+  height: auto;
+}
+form {
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 20px;
+  width: 40%;
+}
+form input,
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+}
+form input {
+  height: 26px;
+  /* width: 50%; */
+}
 @media (max-width: 740px) {
   /* .togle_btn {
     display: block;
@@ -365,4 +398,8 @@ footer {
     padding-top: 8%;
     padding-bottom: 8%;
   }
+  form {
+    width: 80%;
+  }
+  
 }
